@@ -101,6 +101,8 @@ async function sendAll(ctx, items) {
 
 module.exports = {
   name: 'insta',
+  category: 'status',
+  label: 'Ping',
   command: 'insta',
   on: 'message:text',
   desc: 'Instagram downloader: /insta <link> (or just send a link)',
